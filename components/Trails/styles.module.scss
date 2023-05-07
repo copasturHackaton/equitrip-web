@@ -38,7 +38,29 @@
         }
         .title{
             font-size: 20px;
-        }   
+        }
+        .flexVote{
+            gap: 20px;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            align-items: flex-end;
+            justify-content: flex-end;
+        }
+        .rate {
+            color: #05FF00;
+            justify-content: flex-start;
+        }
+        .upVote {
+            text-align: right;
+            color: #05FF00;
+            max-width: 2rem;
+        }
+        .downVote {
+            text-align: right;
+            color: #FF0000;
+            max-width: 2rem;
+        }
         .locationsContainer {
             display: flex;
             flex-direction: column;

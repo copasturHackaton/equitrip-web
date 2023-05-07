@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./styles.module.scss";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 const Header = () => {
   const { push } = useRouter();
@@ -18,13 +19,10 @@ const Header = () => {
           />
           <ul>
             <li>
-              <a href="">Home</a>
-            </li>
-            <li>
               <a href="">Criar trilha</a>
             </li>
             <li>
-              <a href="">Explorar</a>
+              <Link href="/explorer">Explorar</Link>
             </li>
           </ul>
           <div>
