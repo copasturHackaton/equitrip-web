@@ -1,8 +1,11 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.scss";
 import Header from "@/components/Header";
+import { useRouter } from "next/router";
 
 export default function Home() {
+  const { push } = useRouter();
+
   return (
     <>
       <Head>
@@ -11,7 +14,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header/>
+      <Header />
       <main className={styles.home}>
         <section className={styles.hero}>
           <div className={styles.textContainer}>
@@ -24,7 +27,7 @@ export default function Home() {
               Equitrip ajudá-lo a planejar a viagem dos seus sonhos, com
               autenticidade, inclusão e respeito pela diversidade.
             </p>
-            <button>Quero experimentar</button>
+            <button onClick={() => push("/signup")}>Quero experimentar</button>
           </div>
           <div className={styles.imgContainer}>
             <img src="banner.png" alt="" />

@@ -1,6 +1,6 @@
 export interface Trail { 
     _id: string;
-    authorId: string;
+    author: User;
     experiences?: Experience[] | null;
     title: string;
     upVotes: number;
@@ -39,4 +39,15 @@ export interface Trail {
     updatedAt: string;
     __v: number;
   }
+  
+  export interface User { 
+    _id: string;
+    name: string;
+    email: string;
+    password: string;
+    race: string;
+    birthday: string;
+    gender: string;
+    disabilities?: string[] | null;
+}
   
