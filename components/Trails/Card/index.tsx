@@ -24,7 +24,7 @@ const TrailCard = (props: IProps) => {
             <p>
               Criado por: {data?.author?.name ? data?.author?.name : "Renata"}
             </p>
-            <p>Mulher - Negra - LGBTQIA</p>
+            <p>Mulher - Negra - LGBTQIA+</p>
             <button
               className={styles.seeMore}
               onClick={() => push(`/explorer/trail/${data._id}`)}
