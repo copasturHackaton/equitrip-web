@@ -1,0 +1,24 @@
+.experience {
+    
+  .toogleContainer{
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 100%;
+
+    button {
+        border: 0;
+        background-color: transparent;
+        font-size: 40px;
+        font-weight: 300;
+
+    }
+    .active{
+        font-weight: bold;
+        text-decoration: underline;
+
+    }
+  }
+}

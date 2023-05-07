@@ -1,0 +1,41 @@
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  img {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  div {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    label {
+      font-family: Montserrat;
+    }
+    input {
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+  }
+  button {
+    padding: 10px;
+    background-color: #77a8d7;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight:500;
+    width: 100%;
+  }
+}
+}
