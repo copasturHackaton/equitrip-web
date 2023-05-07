@@ -51,28 +51,28 @@ export default function Home() {
           <h2>
             Compartilhe <br />
             suas <br />
-            experiencias!
+            experiências!
           </h2>
           <div className={styles.cardContainer}>
             <div className={styles.cardItem}>
               <img src="locationBA.png" alt="" />
-              <p className={styles.title}>São Paulo</p>
+              <p className={styles.title}>Bahia</p>
               <p className={styles.description}>
-                10 Lugares que você nao pode perder no Brasil.
+                Conheça a cultura africana no Brasil.
               </p>
             </div>
             <div className={styles.cardItem}>
               <img src="locationSC.png" alt="" />
-              <p className={styles.title}>Rio de Janeiro</p>
+              <p className={styles.title}>Florianópolis</p>
               <p className={styles.description}>
-                Experiências gastronomicas no Japão.
+                Lugares mais acessíveis do Brasil.
               </p>
             </div>
             <div className={styles.cardItem}>
               <img src="locationSP.png" alt="" />
-              <p className={styles.title}>Bahia</p>
+              <p className={styles.title}>São Paulo</p>
               <p className={styles.description}>
-                Você realmente conhece o Rio de Janeiro?
+                Encontre eventos e comunidades que combinam com você!
               </p>
             </div>
           </div>
