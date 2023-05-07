@@ -147,7 +147,7 @@ const TrailsTab = () => {
 
   useEffect(() => {
     trailsListHandler();
-  }, []);
+  }, [trailsListHandler]);
 
   useEffect(() => {
     console.log({ trailsData });

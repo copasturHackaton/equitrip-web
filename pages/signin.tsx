@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "@/styles/Signin.module.scss";
 import { GlobalContext } from "@/context/queryContext";
 import { FormEvent, useContext } from "react";
+import Image from "next/image";
 
 export default function SignIn() {
   const { loginHandler, loginLoading } = useContext(GlobalContext);
@@ -27,7 +28,7 @@ export default function SignIn() {
       <header></header>
       <main className={styles.signin}>
         <form onSubmit={handleSubmit}>
-          <img src="logo.png" alt="" />
+          <Image src="/logo.png" alt="" width={360} height={89} />
           <div>
             <label htmlFor="email">Email</label>
             <input type="text" placeholder="Email" name="email" />

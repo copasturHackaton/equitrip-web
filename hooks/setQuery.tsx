@@ -17,7 +17,7 @@ const setQuery = (queryObj: QueryObj) => {
   const query = useQuery();
 
   useEffect(() => {
-    const newQuery = { ...query };
+    const newQuery: any = { ...query };
 
     Object.keys(queryObj).forEach((key) => {
       newQuery[key] = queryObj[key] !== null ? queryObj[key] : "";
